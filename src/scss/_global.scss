@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Larsseit";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #22356f;
+  overflow: hidden;
+  min-width: 300px;
+}
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 100%;
+  // background-color: rgb(220, 226, 226);
+}
+.main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
