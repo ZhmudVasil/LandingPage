@@ -59,7 +59,6 @@
 .main {
 }
 .thrivetalk {
-  position: relative;
   &__inner {
     width: 90%;
     max-width: 1174px;
@@ -132,5 +131,68 @@
     background: #edfdff;
     border-radius: 312.159px;
     transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+  }
+}
+.whythrive {
+  background: #62d0df;
+  &__inner {
+    width: 90%;
+    max-width: 1174px;
+    margin: 0 auto;
+    padding-left: 44px;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: -0.006em;
+    color: #ffffff;
+    margin-top: 148px;
+  }
+  &__text {
+    max-width: 50%;
+    font-size: 24px;
+    line-height: 35px;
+    color: #ffffff;
+    width: 570px;
+    padding: 55px 0 95px;
+    justify-content: end;
+  }
+  &__text span {
+    font-weight: 500;
+  }
+  &__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+.about {
+  &__title {
+    text-transform: uppercase;
+    position: absolute;
+    left: 106px;
+    top: 153px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #22356f;
+  }
+  &__text {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: #22356f;
+    margin: 0 auto;
+    padding: 147px 0 76px;
+    width: 600px;
+  }
+  &__label {
+    text-transform: uppercase;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+    padding-bottom: 24px;
+    margin: 0 auto;
+    width: 600px;
   }
 }
