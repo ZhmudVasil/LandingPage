@@ -196,3 +196,55 @@
     width: 600px;
   }
 }
+
+.health {
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &__box {
+    width: 480px;
+    height: 480px;
+    padding: 95px 88px 95px 52px;
+  }
+  &__box-text {
+    position: relative;
+    display: block;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #ffffff;
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+    padding-left: 34px;
+    font-weight: 700;
+  }
+  &__box-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 41px;
+    width: 12px;
+    height: 12px;
+    background: #e9b730;
+    border-radius: 50%;
+  }
+  &__box1 {
+    background: #22356f;
+  }
+  &__box2 {
+    background: #0052c1;
+  }
+  &__box3 {
+    background: url("../img/joanna-kosinska-340748.jpg");
+  }
+  &__box4 {
+    background: #62d0df;
+  }
+  &__box5 {
+    background: #dee1ff;
+  }
+  &__box6 {
+    background: #8f00ff;
+  }
+}
